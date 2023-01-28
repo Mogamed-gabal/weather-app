@@ -1,0 +1,115 @@
+body
+{
+   
+    background-image: linear-gradient(90deg,rgb(2, 2, 46),rgb(88, 138, 231));
+    font-family: monospace;
+    background-image: url('../../bakery/assets/imgs/download.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* main-card header */
+.today-head
+{
+    background-color: #18186de0;
+    color: white;
+    border-top-right-radius: 5px;
+}
+.today-head h2
+{
+    font-size: 23px;
+    padding: 7px;
+}
+/*  main-card body */
+.today-details
+{
+    background:#18186d;
+    border-bottom-left-radius: 10px;
+    color: white;
+}
+.today-details p
+{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 7px;
+}
+.today-details h2
+{
+    font-weight: 700;
+    padding-right: 1px;
+}
+.details>div
+{
+    padding: 8px;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* second/third temp */
+.second-day
+{
+    color: white;
+    text-align: center;
+    background-color: #004040d9;
+    border-bottom-right-radius: 5px;
+    position: relative;
+}
+.second-day::before
+{
+    content: '';
+    position: absolute;
+    background: black;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 0%;
+    transition: .7s ease-in-out;
+}
+.second-day::after
+{
+    content: '';
+    position: absolute;
+    background: black;
+    bottom: 0;
+    right: 0;
+    width: 3px;
+    height: 0%;
+    transition: .7s ease-in-out;
+}
+.second-day:hover::after,.second-day:hover::before
+{
+    height: 100%;
+}
+.s-header
+{
+    border-top-left-radius: 5px;
+    background: #272525de;
+}
+.s-header h2
+{
+    padding: 4px;
+}
+.second-day-detail img
+{
+    filter: drop-shadow(0px 3px 6px aqua);
+}
+.second-day-detail .max-degree
+{
+    font-weight: 700;
+    font-size: xxx-large;
+}
+.second-day-detail .min-degree
+{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 2px;
+}
+.second-day-detail .second-description
+{
+    font-size: 23px;
+    padding: 7px;
+}
+.one
+{
+    padding: 30px;
+}

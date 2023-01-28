@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--css-->
+    <link rel="stylesheet" href="css/style2.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <!--fontawsewom-->
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/50ff070033.js" crossorigin="anonymous"></script>
+    <!--css-->
+</head>
+<body>
+    <!-- start project -->
+   <div class="project my-5">
+    <div class="container mt-2">
+        <div class="search-bar" id="search-bar">
+            <input type="text" class="search form-control w-50 m-auto" id="search" >
+        </div>
+        <div class="row g-4 pt-5">
+            <!-- first temp -->
+            <div class="col-md-4 ">
+                <div class="today">
+                    <div class="today-head  d-flex justify-content-between" id="t-header">
+                            <h2 id="t-day"></h2>
+                            <h2 id="t-date"></h2>
+                    </div>
+                </div>
+                <div class="today-details">
+                    <p class="" id="location"></p>
+                    <div class="d-flex justify-content-between ">
+                        <div class="pt-3">
+                          <h2 id="today-degree" class="d-inline-block"></h2><h2 class="d-inline-block"><sup>o</sup>C</h2>
+                        </div>
+                        <img id="today-icon"  width="90"/>
+                      </div>
+                      <p id="today-description" class=" discribtion"></p>
+                      <div class="details d-flex justify-content-between">
+                        <div>
+                            <i class="fa-solid fa-umbrella"></i>
+                            <span id="humidty"></span> <span>%</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-wind pl-3 pr-1"></i>
+                            <span id="wind"></span> <span>km/h</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-compass pl-3 pr-1"></i>
+                            <span id="compass"></span>
+                        </div>
+                     </div>
+                </div>
+
+            </div>
+            <!-- second-temp -->
+            <div class="col-md-4">
+                <div class="second-day" id="second-day">
+                    <div class="s-header">
+                        <h2 class="s-day" id="s-day"></h2>
+                    </div>
+                    <div class="second-day-detail">
+                        <img class="second"  alt="" id="second-day-icon" width="90"/>
+                        <h3  class="max-degree" id="second-c-degree">
+
+                        </h3>
+                        <p class="min-degree" id="second-f-deg">
+
+                        </p>
+                        <h4 class="second-description">
+                        
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- third-temp -->
+            <div class="col-md-4">
+                <div class="second-day" id="second-day">
+                    <div class="s-header">
+                        <h2 class="s-day" id="s-day"></h2>
+                    </div>
+                    <div class="second-day-detail">
+                        <img class="second"  alt="" id="second-day-icon" width="90"/>
+                        <h3 class="max-degree" id="second-c-degree">
+
+                        </h3>
+                        <p  class="min-degree" id="second-f-deg">
+
+                        </p>
+                        <h4 class="second-description" >
+                        
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- main script -->
+   <script src="js/main2.js"></script>
+</body>
+</html>
